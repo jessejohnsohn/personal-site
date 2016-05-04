@@ -1,7 +1,372 @@
-<% content_for :title do %>About<% end %>
-<h3>About the Website</h3>
-<p>
-This web application was created with
-<%= link_to('Rails Composer', 'http://railsapps.github.io/rails-composer/') %>
-from the <%= link_to('RailsApps project', 'http://railsapps.github.io/') %>.
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Jesse Johnson | Works</title>
+
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
+
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="bootstrap.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="animate.css" />
+<link rel="stylesheet" href="set.css" />
+
+<!-- gallery -->
+<link rel="stylesheet" href="blueimp-gallery.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+    <!-- Slider Starts -->
+<br>
+<br>
+<div class="banner">
+              <%= image_tag("back.jpg", alt:"banner", class: "img-responsive") %>
+              <div class="caption">
+                <div class="caption-wrapper">
+                  <div class="caption-info">
+                  <h1 class="animated bounceInUp">Jesse Johnson</h1>
+                  <p class="animated bounceInLeft">Programmer</p>
+                  <br>
+                  <p class="animated bounceInRight">Github Profile</p>
+
+
+</head>
+<body>
+
+                 </div>
+                  </div>
+</div>
+
+    </div>
+    <!-- #Slider Ends -->
+    </div>
+
+
+  <div id="works"  class=" clearfix grid">
+      <figure class="effect-oscar  wowload fadeInUp">
+        <%= image_tag("portfolio/1.jpg", alt:"banner", class: "img-responsive") %>
+          <figcaption>
+              <h2>Past</h2>
+
+              <p id="seattle">
+                  <a href="#" id="line1a" style="border:none;padding:none;text-decoration:none">
+                  Seattle, WA
+                </a>
+              </p>
+
+                <br>
+
+              <p id="losangeles">
+                <a href="#" id="line2a" style="border:none;padding:none;text-decoration:none">
+                  Los Angeles, CA
+                </a>
+              </p>
+
+                <br>
+
+                <p id="portland">
+                  <a href="#" id="line3a" style="border:none;padding:none;text-decoration:none">
+                    Portland, OR
+                  </a>
+                </p>
+
+                <br>
+
+                <p id="entrepreneur">
+                  <a href="#" id="line4a" style="border:none;padding:none;text-decoration:none">
+                  Entrepreneur
+                  </a>
+                </p>
+
+                <br>
+
+                <p id="inventor">
+                  <a href="#" id="line5a" style="border:none;padding:none;text-decoration:none">
+                    Inventor
+                  </a>
+                  </p>
+
+                  <br>
+
+                <p id="reset">
+                  <a href="#" id="line6a">
+
+                  </a>
+                </p>
+
+          </figcaption>
+
+
+      </figure>
+       <figure class="effect-oscar  wowload fadeInUp">
+         <%= image_tag("portfolio/2.jpg", alt: "banner", class: "img-responsive") %>
+          <figcaption>
+              <h2>Present</h2>
+              <p>Portland, OR</p>
+              <br>
+                <p id="line1">
+                  Father
+                  <br>
+                  <br>
+                Self-taught programmer<br>
+                </p>
+
+              <p id="present"><a id="line3" href="#" title="1" data-gallery>Details</a></p>
+              <br>
+              <br>
+              <p id="line2">Owner<br><a href="#"
+                style="border:none;padding:2px;text-decoration:underline">
+                Night Copter LLC</a><br></p>
+          </figcaption>
+      </figure>
+       <figure class="effect-oscar  wowload fadeInUp">
+         <%= image_tag("portfolio/3.jpg", alt:"banner", class: "img-responsive") %>
+          <figcaption>
+              <h2>Future</h2>
+              <br>
+              <p>Full-time developer<br> @ Your Company<br>
+              <a href="#" id="hireme" data-gallery>Hire Me</a></p>
+              <br>
+              <br>
+              <br>
+              <p id="line3b"><a href="mailto:jesserjohnson@gmail.com"></a></p>
+              <br>
+              <p id="line4b"></p>
+          </figcaption>
+      </figure>
+</div>
+  </div>
+  <!-- works
+
+
+  <div id="testimonials" class="container spacer ">
+  	<h2 class="text-center  wowload fadeInUp">Testimonials</h2>
+    <div class="clearfix">
+      <div class="col-sm-6 col-sm-offset-3">
+
+
+      <div id="carousel-testimonials" class="carousel slide testimonails  wowload fadeInRight" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active animated bounceInRight row">
+        <div class="animated slideInLeft col-xs-2">
+          <%= image_tag("team/1.jpg", alt:"banner", class: "img-responsive",
+          :style => "padding-right:10px;") %>
+        </div>
+        <div  class="col-xs-10">
+        <br>
+        <span>"Jesse was always such a sweet little boy." </span><br><br>
+        <span>Jesse's Grandma <br><b>Salt Lake City, UT</b></span>
+        </div>
+        </div>
+        <div class="item  animated bounceInRight row">
+        <div class="animated slideInLeft col-xs-2">
+        <%= image_tag("team/2.jpg", alt:"banner", class: "img-responsive",
+        :style => "padding-right:10px;") %>
+        </div>
+        <div  class="col-xs-10">
+          <br>
+          <span>"He'll hustle hard for you." </span><br><br>
+          <span>Chandler Hoisington <br><b>VP of Engineering, RMS</b></span>
+        </div>
+        </div>
+        <div class="item  animated bounceInRight row">
+        <div class="animated slideInLeft  col-xs-2">
+        <%= image_tag("team/1.jpg", alt:"banner", class: "img-responsive",
+        :style => "padding-right:10px; padding-top:10px") %>
+        </div>
+        <div  class="col-xs-10">
+<br>
+          <span>"After trying several "bargain" versions of this toy, and wishing
+            that we hadn't wasted our money; we bought the actual "Night Copter"
+            brand, and the kids love it!" </span><br><br>
+          <span><b>Amazon Customer</b></span>
+        </div>
+        </div>
+    </div>
+-->
+     <!-- Indicators
+     	<ol class="carousel-indicators">
+      <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+      <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+    	</ol>
+    -->
+    	<!-- Indicators -->
+    </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script>
+  $(document).ready(function(){
+  $("#btn1").click(function(){
+  $("#email").text("jesserjohnson@gmail.com");
+  $("#phone").text("(503) 857-7743")
+  });
+
+  });
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#present").click(function(e){
+
+      $("#line1").text("The Night Copter Toy is now sold at countless fairs, festivals, and novelty shops from coast-to-coast. It is currently the 5,000th best-selling toy on Amazon (out of over 200,000).");
+      $("#line2").text("In 2015, after the birth of his daughter, Jesse made a promise to his family to cut down on the endless travel. Thus re-began his study of programming abandoned since High School, and his quest for his new career.");
+      $("#line3").text("");
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#reset").click(function(e){
+
+      $("#line1a").text("Seattle, Washington.");
+      $("#line2a").text("Los Angeles, CA.");
+      $("#line3a").text("Portland, OR");
+      $("#line4a").text("Entrepeneur");
+      $("#line5a").text("Inventor");
+      $("#line6a").text("");
+      e.preventDefault();
+    });
+
+  });
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#seattle").click(function(e){
+
+      $("#line1a").text("B. 1986, Seattle, Washington.");
+      $("#line2a").text("Moved to Oregon in 1995.");
+      $("#line3a").text("Lifelong Seattle sports fan.");
+      $("#line4a").text("RIP Sonics.");
+      $("#line5a").text("");
+      $("#line6a").text("Back")
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#losangeles").click(function(e){
+
+      $("#line1a").text("Los Angeles, CA");
+      $("#line2a").text("Undergraduate studies, Levanthal School of Accounting");
+      $("#line3a").text("University of Southern California");
+      $("#line4a").text("2004 - 2006");
+      $("#line5a").text("Returned home to run the family business following the illness of his father.");
+      $("#line6a").text("Back")
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#portland").click(function(e){
+
+      $("#line1a").text("Portland, OR");
+      $("#line2a").text("2006 - present");
+      $("#line3a").text("Ran family's specialty retail business");
+      $("#line4a").text("Expanded product lines to over 50 trade shows per year");
+      $("#line5a").text("Guided company to its first every 1m fiscal year");
+      $("#line6a").text("Back")
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#entrepreneur").click(function(e){
+
+      $("#line1a").text("Entreprenuer");
+      $("#line2a").text("Launched over 20 new products in ten years");
+      $("#line3a").text("Direct sold them to customers at trade shows across the Northwest");
+      $("#line4a").text("Responsible for the distribution of several iconic products:");
+      $("#line5a").text("Infinity Lights, ShamWow, Water Beads, Corium 21 Aloe Cream, to name a few");
+      $("#line6a").text("Back")
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#inventor").click(function(e){
+
+      $("#line1a").text("Inventor");
+      $("#line2a").text("Designed, patented, and imported a slingshot helicopter toy");
+      $("#line3a").text("Over 30,000 units sold to-date");
+      $("#line4a").text("Well-known as the best-designed, highest-quality toy of its kind");
+      $("#line5a").text("");
+      $("#line6a").text("Back")
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
+
+  <script>
+  $(document).ready(function(){
+    var tempScrollTop = $(window).scrollTop();
+
+    $("#hireme").click(function(e){
+
+      $("#line3b").text("jesserjohnson@gmail.com");
+      $("#line4b").text("(503) 857-7743");
+      e.preventDefault();
+    });
+
+  });
+
+
+  </script>
